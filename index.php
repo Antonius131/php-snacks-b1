@@ -7,39 +7,39 @@
    <title>Matches</title>
 </head>
 <body>
-   <?php 
-      $matches = [
-         [
-            'home' => 'Detroit Pistons',
-            'away' => 'Golden State Warriors',
-            'home points' => '88',
-            'away points' => '121'
-         ],
-         [
-            'home' => 'Los Angeles Lakers',
-            'away' => 'Chicago Bulls',
-            'home points' => '79',
-            'away points' => '99'
-         ],
-         [
-            'home' => 'New York Knicks',
-            'away' => 'Cleveland Cavaliers',
-            'home points' => '88',
-            'away points' => '121'
-         ],
-         [
-            'home' => 'San Antonio Spurs',
-            'away' => 'Boston Celtics',
-            'home points' => '88',
-            'away points' => '121'
-         ],
-         [
-            'home' => 'Miami Heat',
-            'away' => 'Dallas Mavericks',
-            'home points' => '88',
-            'away points' => '121'
-         ],
-      ]
+<?php 
+   $matches = [
+      [
+         'home' => 'Detroit Pistons',
+         'away' => 'Golden State Warriors',
+         'home points' => '88',
+         'away points' => '121'
+      ],
+      [
+         'home' => 'Los Angeles Lakers',
+         'away' => 'Chicago Bulls',
+         'home points' => '79',
+         'away points' => '99'
+      ],
+      [
+         'home' => 'New York Knicks',
+         'away' => 'Cleveland Cavaliers',
+         'home points' => '88',
+         'away points' => '121'
+      ],
+      [
+         'home' => 'San Antonio Spurs',
+         'away' => 'Boston Celtics',
+         'home points' => '88',
+         'away points' => '121'
+      ],
+      [
+         'home' => 'Miami Heat',
+         'away' => 'Dallas Mavericks',
+         'home points' => '88',
+         'away points' => '121'
+      ],
+   ]
    ?>
 </body>
 </html>
