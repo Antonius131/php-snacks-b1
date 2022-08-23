@@ -73,5 +73,17 @@
       <input type="text" name="age" placeholder="age">
       <button type="submit">submit</button>
    </form>
+
+   <?php 
+      $name = $_GET['name'];
+      $email = $_GET['email'];
+      $age = $_GET['age'];
+
+      if ( (strlen($name) > 3) && ((strpos($email, ".")) && (strpos($email, "."))) && (is_numeric($age)) ) {
+         echo "Accesso riuscito";
+      } else {
+         echo "Accesso negato";
+      }
+   ?>
 </body>
 </html>
