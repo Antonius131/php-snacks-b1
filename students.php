@@ -50,7 +50,7 @@
             'name' => 'Emma',
             'last name' => 'Bonino',
             'grades' => [
-               'matematica' => '2',
+               'matematica' => '9',
                'storia' => '8',
                'chimica' => '5',
                'filosofia' => '9',
@@ -65,14 +65,17 @@
 
    <h1>Studenti</h1>
    <ul>
-      <?php for ($i=0; $i<count($students); $i++) { ?>
+      <?php for ($i=0; $i<count($students); $i++) { 
+         $grades = $students[$i]['grades'];
+         $subjects = count($students[$i]['grades']);
+      ?>
          <li>
             <?php echo 
                   $students[$i]['name'] . 
                   " " . 
                   $students[$i]['last name'] . 
                   ": " . 
-                  (round((array_sum($students[$i]['grades']) / count($students[$i]['grades'])), 1))
+                  (round((array_sum($grades) / $subjects), 1))
             ?>
          </li>
       <?php } ?>
