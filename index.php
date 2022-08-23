@@ -59,5 +59,19 @@
          </li>
       <?php } ?>
    </ul>
+
+
+
+   <hr>
+
+
+
+   <h1>Access Form</h1>
+   <form action="index.php" method="GET">
+      <input type="text" name="name" placeholder="name">
+      <input type="email" name="email" placeholder="email">
+      <input type="text" name="age" placeholder="age">
+      <button type="submit">submit</button>
+   </form>
 </body>
 </html>
