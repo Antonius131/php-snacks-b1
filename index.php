@@ -85,5 +85,21 @@
          echo "Accesso negato";
       }
    ?>
+
+
+   <hr>
+
+
+   <?php 
+      $numbers = [];
+      
+
+      while (count($numbers) < 15) {
+         $randomNumber = rand(1,100);
+
+      }
+
+      var_dump($numbers);
+   ?>
 </body>
 </html>
