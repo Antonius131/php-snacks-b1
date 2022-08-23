@@ -115,5 +115,13 @@
 
       $splittedParagraph = explode(".", $paragraph);
    ?>
+
+   <?php for ($i=0; $i < count($splittedParagraph); $i++) { ?>
+      <p>
+         <?php
+            echo $splittedParagraph[$i];
+         ?>
+      </p>
+   <?php } ?>
 </body>
 </html>
