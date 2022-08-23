@@ -35,6 +35,28 @@
                'storia' => '9',
                'chimica' => '6'
             ]
+         ],
+         [
+            'name' => 'Giorgia',
+            'last name' => 'Meloni',
+            'grades' => [
+               'matematica' => '2',
+               'storia' => '8',
+               'chimica' => '3',
+               'filosofia' => '2'
+            ]
+         ],
+         [
+            'name' => 'Emma',
+            'last name' => 'Bonino',
+            'grades' => [
+               'matematica' => '2',
+               'storia' => '8',
+               'chimica' => '5',
+               'filosofia' => '9',
+               'latino' => '4',
+               'educazione fisica' => '0'
+            ]
          ]
       ];
 
@@ -50,7 +72,7 @@
                   " " . 
                   $students[$i]['last name'] . 
                   ": " . 
-                  (round((array_sum($students[$i]['grades']) / 3), 1))
+                  (round((array_sum($students[$i]['grades']) / count($students[$i]['grades'])), 1))
             ?>
          </li>
       <?php } ?>
