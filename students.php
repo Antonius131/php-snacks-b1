@@ -40,5 +40,20 @@
 
       var_dump($students);
    ?>
+
+   <h1>Studenti</h1>
+   <ul>
+      <?php for ($i=0; $i<count($students); $i++) { ?>
+         <li>
+            <?php echo 
+                  $students[$i]['name'] . 
+                  " " . 
+                  $students[$i]['last name'] . 
+                  ": " . 
+                  (round((array_sum($students[$i]['grades']) / 3), 1))
+            ?>
+         </li>
+      <?php } ?>
+   </ul>
 </body>
 </html>
