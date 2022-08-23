@@ -9,27 +9,33 @@
 <body>
    <?php
       $students = [
-         'name' => 'Matteo',
-         'last name' => 'Salvini',
-         'grades ' => [
-            'matematica' => '2',
-            'storia' => '0',
-            'chimica' => '10'
+         [
+            'name' => 'Matteo',
+            'last name' => 'Salvini',
+            'grades' => [
+               'matematica' => '2',
+               'storia' => '0',
+               'chimica' => '10'
+            ]
          ],
-         'name' => 'Luigi',
-         'last name' => 'Marattin',
-         'grades ' => [
-            'matematica' => '8',
-            'storia' => '6',
-            'chimica' => '2'
+         [
+            'name' => 'Luigi',
+            'last name' => 'Marattin',
+            'grades' => [
+               'matematica' => '8',
+               'storia' => '6',
+               'chimica' => '2'
+            ]
          ],
-         'name' => 'Carlo',
-         'last name' => 'Calenda',
-         'grades ' => [
-            'matematica' => '9',
-            'storia' => '9',
-            'chimica' => '6'
-         ],
+         [
+            'name' => 'Carlo',
+            'last name' => 'Calenda',
+            'grades' => [
+               'matematica' => '9',
+               'storia' => '9',
+               'chimica' => '6'
+            ]
+         ]
       ];
 
       var_dump($students);
